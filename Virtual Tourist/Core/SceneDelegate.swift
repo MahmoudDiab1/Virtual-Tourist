@@ -11,15 +11,20 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     var window: UIWindow?
-    let dataController = DataController(modelName: "Virtual_Tourist")
-    
+    let dataController = DataController()
+
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         
-        let navigationControllerVC = window?.rootViewController as! UINavigationController
-        let mapVC = navigationControllerVC.topViewController as! MapViewController
-        mapVC.dataController = dataController
         guard let _ = (scene as? UIWindowScene) else { return }
+
+        dataController.load()
+
+        let navigationController = window?.rootViewController as! UINavigationController
+        let mapVC = navigationController.topViewController as! MapViewController
+        mapVC.dataController = dataController
+
     }
+
     
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.

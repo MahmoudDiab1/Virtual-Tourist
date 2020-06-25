@@ -20,6 +20,7 @@
 		0AAB43FA24A1D55300E87327 /* FlickrClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB43F924A1D55300E87327 /* FlickrClient.swift */; };
 		0AAB43FC24A1D57F00E87327 /* FlickerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB43FB24A1D57F00E87327 /* FlickerResponse.swift */; };
 		0AAB43FF24A2228C00E87327 /* Virtual_Tourist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB43FD24A2228C00E87327 /* Virtual_Tourist.xcdatamodeld */; };
+		0AAB440324A5384300E87327 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB440224A5384300E87327 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		0AAB43F924A1D55300E87327 /* FlickrClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrClient.swift; sourceTree = "<group>"; };
 		0AAB43FB24A1D57F00E87327 /* FlickerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerResponse.swift; sourceTree = "<group>"; };
 		0AAB43FE24A2228C00E87327 /* Virtual_Tourist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Virtual_Tourist.xcdatamodel; sourceTree = "<group>"; };
+		0AAB440224A5384300E87327 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			children = (
 				0A8937DB249D688F00A90144 /* Info.plist */,
 				0AAB43FD24A2228C00E87327 /* Virtual_Tourist.xcdatamodeld */,
+				0AAB440024A5381F00E87327 /* Extensions */,
 				0A8937FC249EBB9F00A90144 /* Core */,
 				0A8937F8249EBB2800A90144 /* Models */,
 				0A8937F9249EBB3400A90144 /* Views */,
@@ -142,6 +145,14 @@
 				0AAB43FB24A1D57F00E87327 /* FlickerResponse.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		0AAB440024A5381F00E87327 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0AAB440224A5384300E87327 /* Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +232,7 @@
 				0A8937F6249EBAF200A90144 /* PhotoCollectionViewCell.swift in Sources */,
 				0A8937CE249D688C00A90144 /* AppDelegate.swift in Sources */,
 				0AAB43FF24A2228C00E87327 /* Virtual_Tourist.xcdatamodeld in Sources */,
+				0AAB440324A5384300E87327 /* Extensions.swift in Sources */,
 				0A8937D0249D688C00A90144 /* SceneDelegate.swift in Sources */,
 				0A8937F1249EBA2100A90144 /* PhotoCollectionViewController.swift in Sources */,
 				0AAB43FC24A1D57F00E87327 /* FlickerResponse.swift in Sources */,
